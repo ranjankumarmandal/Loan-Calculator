@@ -7,6 +7,8 @@ document.getElementById('loan-form').addEventListener('submit', function(e) {
 
     // show loader
     document.getElementById('loading').style.display = 'block';
+
+    // calculate result after 2 seconds
     setTimeout(calculateResults, 2000);
 });
 
@@ -45,6 +47,9 @@ function calculateResults() {
 
 // show error 
 function showError(error) {
+    document.getElementById('results').style.display = 'none'; // hide results
+    document.getElementById('loading').style.display = 'none'; // hide loader
+
     // create a div
     const errorDiv = document.createElement('div');
     // add class
