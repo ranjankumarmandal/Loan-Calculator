@@ -1,0 +1,1 @@
+About - It's a dynamic website, where DOM Manipulation with JS, HTMLS5, CSS3 and Bootstrap has been used. Feel free to use this repo for educational purpose, can't be used for business purpose.
